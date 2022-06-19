@@ -1,6 +1,7 @@
 # Dockstring Dataset
 
 This repo contains sample code to help download and extract the dockstring dataset.
+The dataset is hosted on Figshare at [this link](https://figshare.com/articles/dataset/dockstring_dataset/16511577).
 
 ## Downloading the dataset
 
