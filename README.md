@@ -7,12 +7,9 @@ This repo contains sample code to help download and extract the dockstring datas
 The following shell commands can be used to download the whole dataset:
 
 ```bash
-# Download whole dataset
-wget https://figshare.com/ndownloader/articles/16511577/versions/1 -O data.zip
-
-# Move to a "data" directory
+# Download whole dataset into a data directory and unzip it
 mkdir -p data
-mv data.zip data
+wget https://figshare.com/ndownloader/articles/16511577/versions/1 -O data/data.zip
 unzip data/data.zip -d data
 
 # Decompress the poses with `unxz`
