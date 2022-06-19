@@ -1,0 +1,8 @@
+# Data directory
+/data/
+
+# Vim swap files
+*.swp
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
